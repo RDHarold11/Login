@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url('https://cdn.pixabay.com/photo/2017/07/31/11/21/people-2557396_960_720.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins';
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    max-width: 200px;
+}
+
+.caja{
+
+    height: 550px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 80px;
+    background-color:#e3e3e3 ;
+}
+input[type=email],
+input[type=password]{
+    
+    font-size: 14px;
+    display: block;
+    font-family: 'Poppins';
+    padding: 12px 20px;
+    margin-top: 12px;
+    text-align: center;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+h2{
+    margin-top: 10px;
+    font-size: 35px;
+    text-transform: uppercase;
+    
+}
+
+
+button:hover{
+    background-color: #333;
+    color: white;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+    color: white;
+
+}
+
+button{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: #54BAB9;
+    padding: 15px 40px;
+    margin-top: 20px;
+    display: block;
+}
+a{
+    display: inline-block;
+    margin-top: 4px;
+    font-size: 15px;
+}
